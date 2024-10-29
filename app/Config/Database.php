@@ -26,16 +26,16 @@ class Database extends Config
      */
     public array $default = [
         'DSN'          => '',
-        'hostname'     => 'localhost',
-        'username'     => '',
-        'password'     => '',
-        'database'     => '',
+        'hostname'     => 'mysql.hostinger.com',
+        'username'     => 'u230474653_DUTERTRE',
+        'password'     => 'Parker92700%',
+        'database'     => 'u230474653_tracaColombes',
         'DBDriver'     => 'MySQLi',
         'DBPrefix'     => '',
-        'pConnect'     => false,
+        'pConnect'     => true,
         'DBDebug'      => true,
         'charset'      => 'utf8mb4',
-        'DBCollat'     => 'utf8mb4_general_ci',
+        'DBCollat'     => 'utf8mb4_unicode_ci',
         'swapPre'      => '',
         'encrypt'      => false,
         'compress'     => false,
@@ -49,6 +49,14 @@ class Database extends Config
             'time'     => 'H:i:s',
         ],
     ];
+
+    # database.default.hostname = localhost
+# database.default.database = u230474653_tracaColombes
+# database.default.username = u230474653_DUTERTRE
+# database.default.password = Parker92700%
+# database.default.DBDriver = MySQLi
+# database.default.DBPrefix =
+# database.default.port = 3306
 
     //    /**
     //     * Sample database connection for SQLite3.
